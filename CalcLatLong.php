@@ -13,7 +13,7 @@
     * @copyright (c) 2019, Alonso Ricardo Assis a.ric.c.assi@gmail.com
     */
 
-    class CalcLatLongModel extends Model{		
+    class CalcLatLongModel {		
         private $distancia;        
         
         public function __construct($latitudeInicial, $longitudeInicial, $latitudeFinal, $longitudeFinal){			
